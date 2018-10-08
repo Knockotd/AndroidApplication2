@@ -4,6 +4,7 @@ import android.content.ContentValues;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
+import android.media.MediaPlayer;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -66,6 +67,8 @@ public class SQLiteUse extends AppCompatActivity {
                 if(inputname.trim().length() == 0){
                     Toast.makeText(SQLiteUse.this,"입력된 값이 없음",Toast.LENGTH_SHORT).show();
                     //소리 입력해보기
+                    MediaPlayer effectsound = MediaPlayer.create(SQLiteUse.this,R.raw.beep);
+                    effectsound.start();
 
                     return;
                 }
