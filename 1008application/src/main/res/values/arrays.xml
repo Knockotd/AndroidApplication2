@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name = "actor">
+        <item>박보검</item>
+        <item>조진웅</item>
+        <item>박서준</item>
+        <item>진영</item>
+        <item>김유정</item>
+        <item>송중기</item>
+        <item>박보영</item>
+        <item>차태현</item>
+    </string-array>
+</resources>
