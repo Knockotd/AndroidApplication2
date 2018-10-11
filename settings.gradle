@@ -1,1 +1,1 @@
-include ':1005application', ':1008application', ':1010application'
+include ':1005application', ':1008application', ':1010application', ':1011application'
